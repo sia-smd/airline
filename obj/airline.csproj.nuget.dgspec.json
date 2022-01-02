@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work\\airline\\airline.csproj": {}
+    "d:\\work\\airline\\airline.csproj": {}
   },
   "projects": {
-    "D:\\work\\airline\\airline.csproj": {
+    "d:\\work\\airline\\airline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work\\airline\\airline.csproj",
+        "projectUniqueName": "d:\\work\\airline\\airline.csproj",
         "projectName": "airline",
-        "projectPath": "D:\\work\\airline\\airline.csproj",
+        "projectPath": "d:\\work\\airline\\airline.csproj",
         "packagesPath": "C:\\Users\\siava\\.nuget\\packages\\",
-        "outputPath": "D:\\work\\airline\\obj\\",
+        "outputPath": "d:\\work\\airline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,7 +24,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +41,18 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

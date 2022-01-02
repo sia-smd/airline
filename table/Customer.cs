@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 namespace airline
 {
-    public class customer
+    public class Customer
     {
         [Key]
         public int Customer_id { get; set; }
@@ -10,7 +10,6 @@ namespace airline
         public string Numericid { get; set; }
         public string Mobile { get; set; }
         public string Password { get; set; }  
-
     }
     
 }
