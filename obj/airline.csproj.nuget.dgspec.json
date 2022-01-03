@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "d:\\work\\airline\\airline.csproj": {}
+    "E:\\work\\airline\\airline.csproj": {}
   },
   "projects": {
-    "d:\\work\\airline\\airline.csproj": {
+    "E:\\work\\airline\\airline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\work\\airline\\airline.csproj",
+        "projectUniqueName": "E:\\work\\airline\\airline.csproj",
         "projectName": "airline",
-        "projectPath": "d:\\work\\airline\\airline.csproj",
-        "packagesPath": "C:\\Users\\siava\\.nuget\\packages\\",
-        "outputPath": "d:\\work\\airline\\obj\\",
+        "projectPath": "E:\\work\\airline\\airline.csproj",
+        "packagesPath": "C:\\Users\\sia\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\airline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\siava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
