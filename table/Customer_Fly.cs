@@ -5,8 +5,7 @@ namespace airline
     {
         [Key]
         public int C_F_Id { get; set; }
-        
-         public int Customer_id { get; set; }
+        public int Customer_id { get; set; }
          public int Fly_Id { get; set; }
         
         

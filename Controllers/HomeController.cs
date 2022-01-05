@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using airline.Models;
+using airline;
 
 namespace airline.Controllers
 {
@@ -19,7 +20,7 @@ namespace airline.Controllers
         }
 
         public IActionResult Index()
-        {
+        {    airline.F_List();
             return View();
         }
 

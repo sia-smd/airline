@@ -19,6 +19,24 @@ namespace airline.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("airline.City", b =>
+                {
+                    b.Property<int>("city_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("img_url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("city_id");
+
+                    b.ToTable("Citys");
+                });
+
             modelBuilder.Entity("airline.Customer", b =>
                 {
                     b.Property<int>("Customer_id")
@@ -77,11 +95,11 @@ namespace airline.Migrations
                     b.Property<DateTime>("Date_Fly")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Destination")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DestinationCity_id")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Source")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("SourceCity_id")
+                        .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
