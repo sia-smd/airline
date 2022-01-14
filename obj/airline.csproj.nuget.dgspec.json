@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\work\\airline\\airline.csproj": {}
+    "e:\\work\\airline\\airline.csproj": {}
   },
   "projects": {
-    "E:\\work\\airline\\airline.csproj": {
+    "e:\\work\\airline\\airline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\work\\airline\\airline.csproj",
+        "projectUniqueName": "e:\\work\\airline\\airline.csproj",
         "projectName": "airline",
-        "projectPath": "E:\\work\\airline\\airline.csproj",
+        "projectPath": "e:\\work\\airline\\airline.csproj",
         "packagesPath": "C:\\Users\\sia\\.nuget\\packages\\",
-        "outputPath": "E:\\work\\airline\\obj\\",
+        "outputPath": "e:\\work\\airline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
